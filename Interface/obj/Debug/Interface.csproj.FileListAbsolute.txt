@@ -1,0 +1,7 @@
+C:\Users\Rudrex\OneDrive\Documentos\FELIPE\orientado objeto\Interface\Interface\bin\Debug\Interface.exe.config
+C:\Users\Rudrex\OneDrive\Documentos\FELIPE\orientado objeto\Interface\Interface\bin\Debug\Interface.exe
+C:\Users\Rudrex\OneDrive\Documentos\FELIPE\orientado objeto\Interface\Interface\bin\Debug\Interface.pdb
+C:\Users\Rudrex\OneDrive\Documentos\FELIPE\orientado objeto\Interface\Interface\obj\Debug\Interface.csproj.AssemblyReference.cache
+C:\Users\Rudrex\OneDrive\Documentos\FELIPE\orientado objeto\Interface\Interface\obj\Debug\Interface.csproj.CoreCompileInputs.cache
+C:\Users\Rudrex\OneDrive\Documentos\FELIPE\orientado objeto\Interface\Interface\obj\Debug\Interface.exe
+C:\Users\Rudrex\OneDrive\Documentos\FELIPE\orientado objeto\Interface\Interface\obj\Debug\Interface.pdb
