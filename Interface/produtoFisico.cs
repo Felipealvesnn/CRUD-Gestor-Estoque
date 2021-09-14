@@ -7,15 +7,15 @@ using System.Threading.Tasks;
 namespace Interface
 {
     [System.Serializable]
-    class produtoFisico:Produto, IEstoque
+    class produtoFisico : Produto, IEstoque
     {
         public float frete;
         private int estoque;
 
-        public produtoFisico(string nome, float preco, float frete )
+        public produtoFisico(string nome, float preco, float frete)
         {
             this.nome = nome;
-            this.preco = preco; 
+            this.preco = preco;
             this.frete = frete;
         }
 
@@ -26,7 +26,7 @@ namespace Interface
             int entrada = int.Parse(Console.ReadLine());
             estoque += entrada;
             Console.WriteLine("Entrada Registrada");
-            Console.ReadLine(); 
+            Console.ReadLine();
         }
 
         public void AdicionarSaida()

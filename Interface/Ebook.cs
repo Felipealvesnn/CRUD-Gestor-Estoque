@@ -12,7 +12,7 @@ namespace Interface
         public string autor;
         private int vendas;
 
-        public Ebook(string nome, float preco,string autor)
+        public Ebook(string nome, float preco, string autor)
         {
             this.nome = nome;
             this.preco = preco;

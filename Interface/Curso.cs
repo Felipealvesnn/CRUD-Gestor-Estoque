@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Interface
 {
     [System.Serializable]
-    class Curso:Produto, IEstoque
+    class Curso : Produto, IEstoque
     {
         public string autor;
         private int vagas;

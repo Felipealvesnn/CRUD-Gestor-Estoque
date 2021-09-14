@@ -11,12 +11,13 @@ namespace Interface
     class Program
     {
         static List<IEstoque> produtos = new List<IEstoque>();
-        enum Menu { Listar=1, Adicionar , Remover,Entrar, Saida, Sair };
+        enum Menu { Listar = 1, Adicionar, Remover, Entrar, Saida, Sair };
         static void Main(string[] args)
         {
             bool escolherSair = false;
             Carregar();
-            while (escolherSair==false) {
+            while (escolherSair == false)
+            {
 
                 Console.WriteLine("sistema de estoque");
                 Console.WriteLine("1-listar\n2-Adicionar produto\n3-Remover produto\n4-Entrada de estoque\n5-Saida de estoque\n6-Sair");
@@ -78,7 +79,7 @@ namespace Interface
                 produto.Exibir();
                 id++;
             }
-            
+
         }
         static void entrada()
         {
@@ -115,7 +116,7 @@ namespace Interface
             Listar();
             Console.WriteLine("Digite o Id q vc quer remover");
             int i = int.Parse(Console.ReadLine());
-            if (i >=0 && i < produtos.Count)
+            if (i >= 0 && i < produtos.Count)
             {
                 produtos.RemoveAt(i);
             }
@@ -130,7 +131,7 @@ namespace Interface
         {
             Console.WriteLine("Cadastro de produto");
             Console.WriteLine("1-Produto fisico\n2-Ebook\n3-Cursos");
-            int Escolha= int.Parse(Console.ReadLine());
+            int Escolha = int.Parse(Console.ReadLine());
             if (Escolha > 0 && Escolha < 4)
             {
                 switch (Escolha)
@@ -158,15 +159,15 @@ namespace Interface
         {
             Console.WriteLine("Cadastrando produto fisico");
             Console.WriteLine("Digite o nome: ");
-            string nome= Console.ReadLine();
+            string nome = Console.ReadLine();
             Console.WriteLine("Digite o Preço");
-            
-                float Preco = float.Parse(Console.ReadLine());
-                Console.WriteLine("Digite o Frete");
-                float frete = float.Parse(Console.ReadLine());
-                produtoFisico Pf = new produtoFisico(nome, Preco, frete);
-                produtos.Add(Pf);
-                Salvar();
+
+            float Preco = float.Parse(Console.ReadLine());
+            Console.WriteLine("Digite o Frete");
+            float frete = float.Parse(Console.ReadLine());
+            produtoFisico Pf = new produtoFisico(nome, Preco, frete);
+            produtos.Add(Pf);
+            Salvar();
 
 
 
@@ -202,7 +203,7 @@ namespace Interface
         {
             FileStream stream = new FileStream("Produtos.dat", FileMode.OpenOrCreate);
             BinaryFormatter enconder = new BinaryFormatter();
-            enconder.Serialize(stream,produtos); //"produto" é o nome da interface
+            enconder.Serialize(stream, produtos); //"produto" é o nome da interface
             stream.Close();
         }
         static void Carregar()
@@ -217,15 +218,15 @@ namespace Interface
                     produtos = new List<IEstoque>();
                 }
             }
-                catch
-                {
+            catch
+            {
                 produtos = new List<IEstoque>();
-                }
+            }
             stream.Close();
         }
-            
-        }
+
     }
-    
+}
+
 
 

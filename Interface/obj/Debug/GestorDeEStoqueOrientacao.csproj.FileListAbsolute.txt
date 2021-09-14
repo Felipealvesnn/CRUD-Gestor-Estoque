@@ -1,0 +1,7 @@
+C:\Users\Rudrex\OneDrive\Documentos\GitHub\Exercicios-C\Gestor-Estoque\Interface\bin\Debug\Interface.exe.config
+C:\Users\Rudrex\OneDrive\Documentos\GitHub\Exercicios-C\Gestor-Estoque\Interface\bin\Debug\Interface.exe
+C:\Users\Rudrex\OneDrive\Documentos\GitHub\Exercicios-C\Gestor-Estoque\Interface\bin\Debug\Interface.pdb
+C:\Users\Rudrex\OneDrive\Documentos\GitHub\Exercicios-C\Gestor-Estoque\Interface\obj\Debug\GestorDeEStoqueOrientacao.csproj.AssemblyReference.cache
+C:\Users\Rudrex\OneDrive\Documentos\GitHub\Exercicios-C\Gestor-Estoque\Interface\obj\Debug\GestorDeEStoqueOrientacao.csproj.CoreCompileInputs.cache
+C:\Users\Rudrex\OneDrive\Documentos\GitHub\Exercicios-C\Gestor-Estoque\Interface\obj\Debug\Interface.exe
+C:\Users\Rudrex\OneDrive\Documentos\GitHub\Exercicios-C\Gestor-Estoque\Interface\obj\Debug\Interface.pdb
